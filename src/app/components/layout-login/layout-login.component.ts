@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-layout-login',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './layout-login.component.scss'
 })
 export class LayoutLoginComponent {
-
+  @Input() title: string = "";
+  @Input() primaryBtnText: string = "";
+  @Input() secondBtnText: string = "";
 }

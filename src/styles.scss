@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-color: #7001FD;
+$second-color: #1E2772;
+$gray-bg: #EEEEEE;
+$gray: #ccc;
+$text-color: #555555;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
